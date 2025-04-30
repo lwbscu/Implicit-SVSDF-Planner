@@ -9,7 +9,8 @@
 #include <visualization_msgs/MarkerArray.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <nav_msgs/Path.h>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <Eigen/Geometry>
 #include <iostream>
 #include <unordered_map>

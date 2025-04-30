@@ -1,7 +1,8 @@
 #ifndef SE3_STATE_HPP
 #define SE3_STATE_HPP
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 
 class SE3State
 {

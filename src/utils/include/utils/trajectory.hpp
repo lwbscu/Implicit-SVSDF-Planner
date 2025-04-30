@@ -27,7 +27,8 @@
 
 #include <utils/root_finder.hpp>
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 
 #include <iostream>
 #include <cmath>

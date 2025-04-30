@@ -1,5 +1,6 @@
 #include <ros/ros.h>
-#include <Eigen/Eigen> 
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core> 
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <pcl_conversions/pcl_conversions.h>

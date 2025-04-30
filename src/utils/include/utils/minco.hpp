@@ -27,7 +27,8 @@
 
 #include <utils/trajectory.hpp>
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 
 #include <cmath>
 #include <vector>

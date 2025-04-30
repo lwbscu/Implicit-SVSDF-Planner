@@ -1,7 +1,8 @@
 #ifndef _PLAN_CONTAINER_H_
 #define _PLAN_CONTAINER_H_
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <vector>
 #include <ros/ros.h>
 

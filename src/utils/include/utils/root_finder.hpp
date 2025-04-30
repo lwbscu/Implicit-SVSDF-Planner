@@ -29,7 +29,8 @@
 #include <cfloat>
 #include <cmath>
 #include <set>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <ros/ros.h>
 namespace RootFinderParam
 {

@@ -1,7 +1,8 @@
 #ifndef LBFGS_HPP
 #define LBFGS_HPP
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <cmath>
 #include <algorithm>
 

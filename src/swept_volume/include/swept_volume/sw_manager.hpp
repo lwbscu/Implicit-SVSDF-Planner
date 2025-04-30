@@ -3,7 +3,8 @@
 #define IGL_STATIC_LIBRARY 1 
 #include <Eigen/Core>
 #include <Eigen/Sparse>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include "utils/trajectory.hpp"
 #include "utils/Shape.hpp"
 #include "utils/Visualization.hpp"

@@ -2,7 +2,8 @@
 #define SHAPE_HPP
 #define IGL_STATIC_LIBRARY 1 
 #include <iostream>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <ros/ros.h>
 #include <ros/package.h>
 #include <string>

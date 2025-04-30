@@ -1,4 +1,5 @@
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <quadrotor_msgs/PositionCommand.h>
 #include <ros/ros.h>
 

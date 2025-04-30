@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.5)
 project(plan_manager)
 add_compile_options(-std=c++17)
 set(CMAKE_BUILD_TYPE "Release")

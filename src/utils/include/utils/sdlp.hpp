@@ -26,7 +26,8 @@
 #ifndef SDLP_HPP
 #define SDLP_HPP
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <cmath>
 #include <random>
 

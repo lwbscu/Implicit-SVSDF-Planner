@@ -1,13 +1,12 @@
 
-# 修改loadStartEnd参数为false
-
+# 修改loadStartEnd参数为fal
 meshTopic:                    '/polyve/mesh'
 edgeTopic:                    '/polyve/edge'
 vertexTopic:                  '/polyve/vert'
 
 
 inputdata:                    "shapes/star.obj" 
-loadStartEnd:               false 
+loadStartEnd:               true 
 colli_thres: 0.55
 
 poly_params:                   [0.0,0.0,0.0]  
@@ -36,7 +35,7 @@ speedEps:                   0.0001
 mapTopic:                     '/voxel_map'
 
 voxelWidth:                 0.15
-mapBound:                   [-100.0, 100.0, -100.0, 100.0, 0.0, 15.0]
+mapBound:                   [-25.0, 25.0, -25.0, 25.0, 0.0, 15.0]
 occupancy_resolution:      1.0 
 debug_output:              false #bool
 sta_threshold:             1 #int

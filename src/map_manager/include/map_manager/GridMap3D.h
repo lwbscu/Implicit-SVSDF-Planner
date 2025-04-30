@@ -3,7 +3,8 @@
 
 #include <ros/ros.h>
 #include <ros/package.h>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <string>
 using namespace std;
 using namespace Eigen;

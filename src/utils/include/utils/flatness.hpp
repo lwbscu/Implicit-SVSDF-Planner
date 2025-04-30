@@ -25,7 +25,8 @@
 #ifndef FLATNESS_HPP
 #define FLATNESS_HPP
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 
 #include <cmath>
 //参考大鑫控制器当中笔记!!!!!!!!!

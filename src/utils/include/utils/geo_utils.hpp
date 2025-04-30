@@ -29,7 +29,8 @@
 // #include "quickhull.hpp"
 // #include "sdlp.hpp"
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 
 #include <cfloat>
 #include <cstdint>

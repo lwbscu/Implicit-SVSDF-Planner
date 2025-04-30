@@ -5,7 +5,7 @@ vertexTopic:                  '/polyve/vert'
 
 inputdata:                    "shapes/sdArc.obj" 
 colli_thres: 0.2
-loadStartEnd:               true
+loadStartEnd:               false
 poly_params:                   [0.0,0.0,0.0]  
 selfmapresu:                0.05
 threads_num:                12
@@ -33,7 +33,7 @@ speedEps:                   0.0001
 mapTopic:                     '/voxel_map'
 
 voxelWidth:                 0.15 
-mapBound:                   [-25.0, 25.0, -25.0, 25.0, 0.0, 15.0]
+mapBound:                   [-25.0, 100.0, -25.0, 100.0, 0.0, 15.0]
 occupancy_resolution:      1.0 
 debug_output:              false #bool
 sta_threshold:             1 #int

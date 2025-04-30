@@ -4,7 +4,8 @@
 #include <unordered_map>
 #include <Eigen/Core>
 #include <Eigen/Sparse>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include <igl/readOBJ.h>
 #include <igl/writeOBJ.h>
 #include <igl/signed_distance.h>

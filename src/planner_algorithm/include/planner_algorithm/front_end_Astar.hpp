@@ -1,7 +1,8 @@
 #ifndef ASTAR_H
 #define ASTAR_H
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
 #include "map_manager/PCSmap_manager.h"
 #include "swept_volume/sw_manager.hpp"
 
